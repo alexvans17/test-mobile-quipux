@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Quipux</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="invalid_username">Usuario no válido</string>
+    <string name="invalid_password">La contraseña debe tener mas 5 caracteres</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_logout">Cerrar sesión</string>
+    <string name="add_person">Agregar persona</string>
+    <string name="register">Registrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="allow_add_person">Permitir agregar persona</string>
+    <string name="not_add_person">No es posible agregar personas</string>
+    <string name="identification_type">Tipo de identificación</string>
+    <string name="identification_number">Número de identificación</string>
+    <string name="first_name">Nombres</string>
+    <string name="last_name">Apellidos</string>
+    <string name="age">Edad</string>
+    <string name="empty_list_persons">Esto es una prueba de Android y necesitamos personas para mostrar, por favor agregue personas.</string>
+    <string-array name="identification_type">
+        <item>Cédula</item>
+        <item>Tarjeta de identidad</item>
+        <item>Pasaporte</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Otro</item>
+    </string-array>
+
+</resources>

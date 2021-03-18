@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0A090F</color>
+    <color name="primary_dark">#09080D</color>
+    <color name="accent">#222126</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_color">#202020</color>
+    <color name="border">#707070</color>
+    <color name="button_gray">#9E9E9E</color>
+    <color name="card_view">#F4F4F4</color>
+    <color name="text_hint">#0000FF</color>
+</resources>
