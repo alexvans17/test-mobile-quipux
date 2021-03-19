@@ -36,7 +36,6 @@
                 android:id="@+id/input_identification"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/TextHintLayoutStyle"
                 android:inputType="textCapWords"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -51,7 +50,7 @@
                 android:id="@+id/input_first_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/TextHintLayoutStyle"
+                android:maxLength="50"
                 android:inputType="textCapWords"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -66,7 +65,7 @@
                 android:id="@+id/input_last_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/TextHintLayoutStyle"
+                android:maxLength="60"
                 android:inputType="textCapWords"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -78,10 +77,9 @@
             android:hint="@string/age">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/input_first_age"
+                android:id="@+id/input_age"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/TextHintLayoutStyle"
                 android:inputType="number"
                 android:maxLength="3"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -92,6 +90,7 @@
             android:layout_height="?attr/dropdownListPreferredItemHeight"
             android:layout_marginTop="10dp"
             android:paddingStart="10dp"
+            android:paddingEnd="10dp"
             android:background="@drawable/bg_spinner"
             android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
             android:prompt="@string/identification_type"
@@ -112,8 +111,9 @@
             android:layout_height="wrap_content"
             android:textAllCaps="false"
             android:padding="5dp"
-            android:background="@color/button_gray"
-            android:textColor="@color/white"
+            android:layout_gravity="center"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="@color/text_color"
             android:text="@string/cancel"
             android:layout_margin="5dp"/>
 
@@ -124,11 +124,11 @@
             android:layout_height="wrap_content"
             android:textAllCaps="false"
             android:padding="5dp"
-            android:background="@color/primary"
+            android:layout_gravity="center"
+            style="@style/Widget.MaterialComponents.Button"
             android:textColor="@color/white"
             android:text="@string/register"
             android:layout_margin="5dp"/>
 
     </LinearLayout>
-
 </LinearLayout>

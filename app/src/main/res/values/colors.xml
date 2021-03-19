@@ -10,4 +10,5 @@
     <color name="button_gray">#9E9E9E</color>
     <color name="card_view">#F4F4F4</color>
     <color name="text_hint">#0000FF</color>
+    <color name="gender">#F63E7C</color>
 </resources>
